@@ -1,8 +1,8 @@
 name: Get SPX
 on:
   schedule:
-    # Run everyday 23:00:00 UTC / 07:00:00 SGP time
-    - cron: '0 23 * * *'
+    # Run everyday 00:30:00 UTC / 08:30:00 SGP time
+    - cron: '30 0 * * *'
 
 jobs:
   pull_data:
