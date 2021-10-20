@@ -2,7 +2,7 @@ import math
 import datetime
 import requests
 
-Today = datetime.datetime.utcnow() #datetime.datetime(2020, 12, 31, 8, 0, 0, 000000, tzinfo=datetime.timezone.utc)
+Today = datetime.datetime.utcnow() #datetime.datetime(2020, 12, 31, 0, 0, 0, 0, tzinfo=datetime.timezone.utc)
 Month = {
   "Jan": 1,
   "Feb": 2,
@@ -77,8 +77,8 @@ def get_spx_data() -> str:
 	}
 	resultStartStr = "Volume</span></th></tr></thead>"
 	resultEndStr = "</tbody>"
-	startPeriod = math.trunc(datetime.datetime(Today.year, 1, 1, 8, 0,0).timestamp())
-	endPeriod = math.trunc(datetime.datetime(Today.year, Today.month, Today.day, 8, 0,0).timestamp())
+	startPeriod = math.trunc(datetime.datetime(Today.year, 1, 1, 0, 0, 0, tzinfo=datetime.timezone.utc).timestamp())
+	endPeriod = math.trunc(datetime.datetime(Today.year, Today.month, Today.day, 0, 0, 0, tzinfo=datetime.timezone.utc).timestamp())
 	#endPeriod = endPeriod - 86400 #As UTC time earlier than New York time
 	Config = {'period1': startPeriod, 'period2': endPeriod, 'interval': '1d', 'filter': 'history', 'frequency': '1d', 'includeAdjustedClose': 'true'}
 	print(Config)
