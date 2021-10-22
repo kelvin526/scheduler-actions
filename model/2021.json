@@ -1,5 +1,6 @@
-[{"DLM": "2021-10-21 01:45:06.086676","SPX":{
-"Oct 20 2021":{"Open": 4524.42,"High": 4540.87,"Low": 4524.40,"Close": 4536.19,"AdjClose": 4536.19,"Volume": 1837718000,"OpenCloseDiff": 22.29,"DailyP&L": 16.56},
+[{"DLM": "2021-10-22 01:45:06.808772","SPX":{
+"Oct 21 2021":{"Open": 4532.24,"High": 4551.44,"Low": 4526.89,"Close": 4549.78,"AdjClose": 4549.78,"Volume": 3016950000,"OpenCloseDiff": 11.77,"DailyP&L": 13.59},
+"Oct 20 2021":{"Open": 4524.42,"High": 4540.87,"Low": 4524.40,"Close": 4536.19,"AdjClose": 4536.19,"Volume": 2671560000,"OpenCloseDiff": 22.29,"DailyP&L": 16.56},
 "Oct 19 2021":{"Open": 4497.34,"High": 4520.40,"Low": 4496.41,"Close": 4519.63,"AdjClose": 4519.63,"Volume": 2531210000,"OpenCloseDiff": 22.74,"DailyP&L": 33.17},
 "Oct 18 2021":{"Open": 4463.72,"High": 4488.75,"Low": 4447.47,"Close": 4486.46,"AdjClose": 4486.46,"Volume": 2683540000,"OpenCloseDiff": 23.68,"DailyP&L": 15.09},
 "Oct 15 2021":{"Open": 4447.69,"High": 4475.82,"Low": 4447.69,"Close": 4471.37,"AdjClose": 4471.37,"Volume": 3000560000,"OpenCloseDiff": 51.51,"DailyP&L": 33.11},
@@ -97,6 +98,5 @@
 "Jun 07 2021":{"Open": 4229.34,"High": 4232.34,"Low": 4215.66,"Close": 4226.52,"AdjClose": 4226.52,"Volume": 3835570000,"OpenCloseDiff": 23.84,"DailyP&L": -3.37},
 "Jun 04 2021":{"Open": 4206.05,"High": 4233.45,"Low": 4206.05,"Close": 4229.89,"AdjClose": 4229.89,"Volume": 3487070000,"OpenCloseDiff": 1.42,"DailyP&L": 37.04},
 "Jun 03 2021":{"Open": 4191.43,"High": 4204.39,"Low": 4167.93,"Close": 4192.85,"AdjClose": 4192.85,"Volume": 4579450000,"OpenCloseDiff": 1.3,"DailyP&L": -15.27},
-"Jun 02 2021":{"Open": 4206.82,"High": 4217.37,"Low": 4198.27,"Close": 4208.12,"AdjClose": 4208.12,"Volume": 4860930000,"OpenCloseDiff": -14.48,"DailyP&L": 6.08},
-"Jun 01 2021":{"Open": 4216.52,"High": 4234.12,"Low": 4197.59,"Close": 4202.04,"AdjClose": 4202.04,"Volume": 4122960000,"OpenCloseDiff": 0.01,"DailyP&L": 0.01}},
+"Jun 02 2021":{"Open": 4206.82,"High": 4217.37,"Low": 4198.27,"Close": 4208.12,"AdjClose": 4208.12,"Volume": 4860930000,"OpenCloseDiff": 0.01,"DailyP&L": 0.01}},
 "Statistics": {	}}]
